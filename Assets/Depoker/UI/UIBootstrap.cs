@@ -30,13 +30,6 @@ namespace Depoker.UI
 
             Deck = new Stack<Card>(cards.OrderBy(x => Random.value));
             
-            LocalPlayer = Manager.CreateArchetype(
-                typeof(My),
-                typeof(Player),
-                typeof(Sit),
-                typeof(Bank)
-            );
-
             Entity flop = Manager.CreateEntity(typeof(Flop));
 
             Entity local = Entity.Null;
@@ -81,27 +74,29 @@ namespace Depoker.UI
             
             yield return new WaitForSeconds(0.5f);
 
-            AddOrSet(local, new Cards
-            {
-                Left = RandomCard(),
-                Right = RandomCard()
-            });
+            var localCards = default(Cards);
+            var opponent1Cards = default(Cards);
+            var opponent2Cards = default(Cards);
+
+            localCards.Right = RandomCard();
             
+            AddOrSet(local, localCards);
+            yield return new WaitForSeconds(0.5f);
+            opponent1Cards.Right = RandomCard(Card.States.Close);
+            AddOrSet(oponent1, opponent1Cards);
+            yield return new WaitForSeconds(0.5f);
+            opponent2Cards.Right = RandomCard(Card.States.Close);
+            AddOrSet(oponent2, opponent2Cards);
             yield return new WaitForSeconds(0.5f);
             
-            AddOrSet(oponent1, new Cards
-            {
-                Left = RandomCard(Card.States.Close),
-                Right = RandomCard(Card.States.Close)
-            });
-            
+            localCards.Left = RandomCard();
+            AddOrSet(local, localCards);
             yield return new WaitForSeconds(0.5f);
-            
-            AddOrSet(oponent2, new Cards
-            {
-                Left = RandomCard(Card.States.Close),
-                Right = RandomCard(Card.States.Close)
-            });
+            opponent1Cards.Left = RandomCard(Card.States.Close);
+            AddOrSet(oponent1, opponent1Cards);
+            yield return new WaitForSeconds(0.5f);
+            opponent2Cards.Left = RandomCard(Card.States.Close);
+            AddOrSet(oponent2, opponent2Cards);
             
             AddOrSet(oponent1, new Bid() { Value = 5 });
             AddOrSet(oponent2, new Bid() { Value = 10 });

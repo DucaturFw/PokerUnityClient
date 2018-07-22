@@ -6,13 +6,9 @@ namespace Depoker.UI.Views
 {
     public class SitView : MonoBehaviour
     {
-        public bool vacant;
-        
         private DirtableValue<Bid> dirtableBidData = new DirtableValue<Bid>();
         private DirtableValue<Bank> dirtableBankData = new DirtableValue<Bank>();
         private DirtableValue<Chips> dirtableChipsData = new DirtableValue<Chips>();
-        private DirtableValue<bool> dirtableLeftCardOpen = new DirtableValue<bool>();
-        private DirtableValue<bool> dirtableRightCardOpen = new DirtableValue<bool>();
         private DirtableValue<Card> dirtableLeftCard = new DirtableValue<Card>();
         private DirtableValue<Card> dirtableRightCard = new DirtableValue<Card>();
         private DirtableValue<bool> dirtableVacant = new DirtableValue<bool>();
@@ -59,6 +55,10 @@ namespace Depoker.UI.Views
         public CardView LeftCardView;
         public CardView RightCardView;
 
+        void Start()
+        {
+            FixView();
+        }
         void OnEnable()
         {
             dirtableBidData.ValueUpdated += UpdateBidData;
@@ -85,14 +85,27 @@ namespace Depoker.UI.Views
             dirtableRightCard.ValueUpdated -= UpdateRightCard;
             dirtableVacant.ValueUpdated -= UpdateVacant;
         }
+        
+        private void FixView()
+        {
+            BidValue.transform.parent.Find("Image").gameObject.SetActive(false);
+            BidValue.transform.parent.Find("Text").gameObject.AddComponent<Shadow>();
+            
+            BankValue.transform.parent.Find("Image").gameObject.SetActive(false);
+            BankValue.transform.parent.Find("Text").gameObject.AddComponent<Shadow>();
+        }
 
         private void UpdateVacant(bool obj)
         {
-            vacant = obj;
-
             foreach (Transform child in transform)
             {
                 child.gameObject.SetActive(!obj);
+            }
+
+            if (obj)
+            {
+                UpdateLeftCard(LeftCard);
+                UpdateRightCard(RightCard);
             }
         }
 

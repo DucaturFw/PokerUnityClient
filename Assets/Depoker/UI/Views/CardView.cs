@@ -1,4 +1,5 @@
-﻿using Depoker.UI.Components;
+﻿using System;
+using Depoker.UI.Components;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,6 +34,18 @@ namespace Depoker.UI.Views
             set { dirtableCard.Value = value; }
         }
 
+        void Start()
+        {
+            FixView();
+        }
+
+        private void FixView()
+        {
+            Debug.Log(Cover);
+            Cover.gameObject.SetActive(true);
+            CardSprite.gameObject.SetActive(true);
+        }
+
         void OnEnable()
         {
             dirtableCard.ValueUpdated += CardUpdated;
@@ -48,11 +61,23 @@ namespace Depoker.UI.Views
         {
             if (obj.State == Card.States.None)
             {
-                Group.alpha = 0;
+                if (!Cover)
+                {
+                    throw new NullReferenceException("Cover not found at " + gameObject);
+                }
+
+                if (!UIConfiguration.Instance)
+                {
+                    throw new NullReferenceException("UIConfiguration not found at" + gameObject);
+                }
+                
+                Cover.sprite = UIConfiguration.Instance.SpaceSprite;
+                Cover.color = UIConfiguration.Instance.SpaceColor;
             }
             else
             {
-                Group.alpha = 1;
+                Cover.sprite = UIConfiguration.Instance.CoverSprite;
+                Cover.color = Color.white;
                 
                 Cover.gameObject.SetActive(obj.State == Card.States.Close);
                 CardSprite.gameObject.SetActive(obj.State == Card.States.Open);
