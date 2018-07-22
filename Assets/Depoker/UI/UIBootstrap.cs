@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using Depoker.UI.Components;
 using Unity.Entities;
 using UnityEngine;
@@ -8,12 +10,26 @@ namespace Depoker.UI
     public class UIBootstrap : MonoBehaviour
     {
         public EntityArchetype LocalPlayer;
+        private Stack<Card> Deck;
 
         private World Active => World.Active;
         private EntityManager Manager => Active.GetOrCreateManager<EntityManager>();
         
         IEnumerator Start()
         {
+            var cards = new Card[52];
+            for (var cardIndex = 0; cardIndex < cards.Length; cardIndex++)
+            {
+                cards[cardIndex] = new Card
+                {
+                    State = Card.States.None,
+                    Suit = cardIndex / 13,
+                    Value = cardIndex % 13
+                };
+            }
+
+            Deck = new Stack<Card>(cards.OrderBy(x => Random.value));
+            
             LocalPlayer = Manager.CreateArchetype(
                 typeof(My),
                 typeof(Player),
@@ -142,7 +158,9 @@ namespace Depoker.UI
 
         private Card RandomCard(Card.States state = Card.States.Open)
         {
-            return new Card() {State = state, Suit = Random.Range(0, 4), Value = Random.Range(0, 13)};
+            var card = Deck.Pop();
+            card.State = state;
+            return card;
         }
 
         void AddOrSet<T>(Entity e, T data) where T : struct, IComponentData
