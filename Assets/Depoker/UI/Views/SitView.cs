@@ -7,8 +7,8 @@ namespace Depoker.UI.Views
     public class SitView : MonoBehaviour
     {
         private DirtableValue<Bid> dirtableBidData = new DirtableValue<Bid>();
-        private DirtableValue<Bank> dirtableBankData = new DirtableValue<Bank>();
         private DirtableValue<Chips> dirtableChipsData = new DirtableValue<Chips>();
+        private DirtableValue<Bank> dirtableBankData = new DirtableValue<Bank>();
         private DirtableValue<Card> dirtableLeftCard = new DirtableValue<Card>();
         private DirtableValue<Card> dirtableRightCard = new DirtableValue<Card>();
         private DirtableValue<bool> dirtableVacant = new DirtableValue<bool>();

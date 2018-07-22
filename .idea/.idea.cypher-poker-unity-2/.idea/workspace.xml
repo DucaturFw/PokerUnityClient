@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05c571f6-4012-4e78-96a5-556ec8d2185c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateStateBarrier.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateStateBarrier.cs.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Sprites/Space.psd" afterPath="$PROJECT_DIR$/Assets/Assets/Sprites/Space.psd" />
+      <change beforePath="$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateFlopSystem.cs" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateFlopSystem.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs.meta" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Depoker/UI/UIConfiguration.cs.meta" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/UIConfiguration.cs.meta" />
+      <change beforePath="$PROJECT_DIR$/Assets/Depoker/UI/Views/CardView.cs" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/Views/CardView.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Depoker/UI/Views/FlopView.cs" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/Views/FlopView.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Depoker/UI/Views/SitView.cs" afterPath="$PROJECT_DIR$/Assets/Depoker/UI/Views/SitView.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene_Profiles.meta" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CardView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/CardView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="73" column="49" lean-forward="false" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+              <folding>
+                <marker date="1532249136301" expanded="false" signature="6:83" ph="..." />
+                <marker date="1532249136301" expanded="true" signature="111:2465" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="155:2463" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="429:681" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="455:671" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="510:620" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="707:822" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="844:887" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="919:1066" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="1091:1196" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="1222:1296" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="1340:2457" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="1397:2005" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="1439:1565" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="1613:1748" ph="{...}" />
+                <marker date="1532249136301" expanded="true" signature="2022:2447" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Flop.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Components/Flop.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <marker date="1532232756004" expanded="false" signature="6:59" ph="..." />
+                <marker date="1532232756004" expanded="true" signature="92:481" ph="{...}" />
+                <marker date="1532232756004" expanded="true" signature="200:479" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlopView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/FlopView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <marker date="1532246844170" expanded="true" signature="6:116" ph="..." />
+                <marker date="1532246844170" expanded="true" signature="144:2420" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="188:2418" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="624:739" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="771:896" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="932:1053" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="1078:1399" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="1447:1504" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="1545:1704" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="1730:1804" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="1848:2081" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="2141:2412" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="2184:2266" ph="{...}" />
+                <marker date="1532246844170" expanded="true" signature="2283:2402" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIBootstrap.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="221" column="12" lean-forward="false" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
+              <folding>
+                <marker date="1532249440235" expanded="false" signature="6:148" ph="..." />
+                <marker date="1532249440235" expanded="true" signature="170:8836" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="217:8834" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="565:8319" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="688:929" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="763:914" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="1269:1698" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="1413:1482" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="1511:1583" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="1612:1684" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="5381:5560" ph="..." />
+                <marker date="1532249440235" expanded="true" signature="5394:5523" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="7635:7724" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="8399:8511" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="8588:8827" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="8642:8721" ph="{...}" />
+                <marker date="1532249440235" expanded="true" signature="8738:8817" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComponentSystem.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.8/Unity.Entities/ComponentSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="266" column="76" lean-forward="false" selection-start-line="266" selection-start-column="76" selection-end-line="266" selection-end-column="76" />
+              <folding>
+                <marker date="1530474820000" expanded="false" signature="6:190" ph="..." />
+                <marker date="1530474820000" expanded="true" signature="216:20705" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="296:9741" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="1689:2293" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="1964:2088" ph="/* If all the groups are empty, skip it. ... */" />
+                <marker date="1530474820000" expanded="true" signature="2132:2256" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="2383:3333" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="3390:3840" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="3603:3830" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="3912:4547" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="3975:4159" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="4613:4863" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="4660:4766" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="4920:4941" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="4989:5010" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="5068:5287" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="5344:5443" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="5681:5800" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="5868:6523" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="6016:6513" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="6624:7587" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="6698:6858" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="7678:7870" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="7749:7860" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="7962:8154" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="8033:8144" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="8230:8735" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="8315:8508" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="8791:9455" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="9023:9266" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="9297:9392" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="9507:9735" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="9806:11586" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="9976:10199" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="10229:10431" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="10487:11114" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="10543:10956" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="10599:10721" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="10777:10845" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="10869:10942" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="10998:11104" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="11211:11296" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="11369:11440" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="11450:11540" ph="/// Called once per frame on the main thread. ... " />
+                <marker date="1530474820000" expanded="true" signature="11654:19130" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="11787:12169" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="11895:12072" ph="/* We need to wait on all previous frame dependencies, otherwise it is possible that we create infinitely long de ... */" />
+                <marker date="1530474820000" expanded="true" signature="12246:14434" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="12412:12610" ph="/* Notify all injected barrier systems that they will need to sync on any jobs we spawned. ... */" />
+                <marker date="1530474820000" expanded="true" signature="12669:12766" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="12891:13586" ph="/* Check that all reading and writing jobs are a dependency of the output job, to ... */" />
+                <marker date="1530474820000" expanded="true" signature="14490:15296" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="14546:15138" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="14602:14724" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="14849:14937" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="14976:15075" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="15180:15286" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="15393:15584" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="15657:15778" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="15909:16135" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="16244:16467" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="16534:16584" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="18570:18798" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="18863:19124" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="19196:20703" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="19370:19524" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="19586:19691" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="19754:19909" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="19961:20093" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="20144:20235" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="20285:20697" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="20481:20687" ph="{...}" />
+                <marker date="1530474820000" expanded="true" signature="20525:20626" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculateChipsSystem.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/CalculateChipsSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+              <folding>
+                <marker date="1532232756035" expanded="false" signature="6:94" ph="..." />
+                <marker date="1532232756035" expanded="true" signature="116:2282" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="174:2280" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="240:417" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="456:617" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="710:2274" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="755:2264" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="837:2250" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="1030:1303" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="1139:1281" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="1328:2232" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="1453:1780" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="1893:2037" ph="{...}" />
+                <marker date="1532232756035" expanded="true" signature="2066:2210" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bid.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Components/Bid.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              <folding>
+                <marker date="1532232755988" expanded="true" signature="31:140" ph="{...}" />
+                <marker date="1532232755988" expanded="true" signature="100:138" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerStateUISystem.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/PlayerStateUISystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1532232756037" expanded="true" signature="6:94" ph="..." />
+                <marker date="1532232756037" expanded="true" signature="116:2166" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="173:2164" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="208:369" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="453:2158" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="498:2148" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="581:2134" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="1089:1216" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="1283:1412" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="1480:1639" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="1707:1938" ph="{...}" />
+                <marker date="1532232756037" expanded="true" signature="1963:2116" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateFlopSystem.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateFlopSystem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="87" lean-forward="false" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+              <folding>
+                <marker date="1532248219012" expanded="true" signature="6:94" ph="..." />
+                <marker date="1532248219012" expanded="true" signature="116:1146" ph="{...}" />
+                <marker date="1532248219012" expanded="true" signature="170:1144" ph="{...}" />
+                <marker date="1532248219012" expanded="true" signature="205:368" ph="{...}" />
+                <marker date="1532248219012" expanded="true" signature="452:1138" ph="{...}" />
+                <marker date="1532248219012" expanded="true" signature="497:1128" ph="{...}" />
+                <marker date="1532248219012" expanded="true" signature="806:926" ph="{...}" />
+                <marker date="1532248219012" expanded="true" signature="990:1114" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SitView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/SitView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="114" selection-end-column="79" />
+              <folding>
+                <marker date="1532246357789" expanded="false" signature="6:69" ph="..." />
+                <marker date="1532246357789" expanded="true" signature="97:4384" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="140:4382" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="665:786" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="816:939" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="971:1096" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="1134:1257" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="1288:1413" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="1441:1559" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="1756:1799" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="1823:2446" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="2472:2856" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="2896:3265" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="3310:3595" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="3371:3449" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="3471:3585" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="3637:3806" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="3850:4056" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="4102:4162" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="4206:4268" ph="{...}" />
+                <marker date="1532246357789" expanded="true" signature="4313:4376" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/PlayerStateUISystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/CalculateChipsSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/SitView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/Blockchain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/FlopView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Components/Flop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Components/Bid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateStateBarrier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateFlopSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/CardView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.8/Unity.Entities/ComponentSystem.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/Views/SitView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/Views/FlopView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateStateBarrier.cs" />
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateFlopSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/Systems/CalculateBankAfterBidSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/Views/CardView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/Systems/CalculateChipsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="cypher-poker-unity-2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="cypher-poker-unity-2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker.UI" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="cypher-poker-unity-2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker.UI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="cypher-poker-unity-2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker.UI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="cypher-poker-unity-2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker.UI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="UI" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="cypher-poker-unity-2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker.UI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="UI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Components" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="cypher-poker-unity-2 (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker.UI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Depoker" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="UI" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Systems" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ui&#9;null&#9;null&#10;sitv&#9;null&#9;null&#10;flopv&#9;null&#9;null&#10;card&#9;null&#9;null" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/Blockchain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <marker date="1532232755977" expanded="false" signature="6:116" ph="..." />
+            <marker date="1532232755977" expanded="true" signature="135:4122" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="177:912" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="259:906" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="312:520" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="653:864" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="959:1157" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="1073:1151" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="1195:2502" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="1472:1590" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="1699:2496" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2014:2109" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2126:2486" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2160:2264" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2308:2472" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2552:3230" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2637:2657" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2714:2785" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="2836:3224" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="3282:3992" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="3366:3386" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="3446:3491" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="3551:3986" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="4037:4120" ph="{...}" />
+            <marker date="1532232755977" expanded="true" signature="4070:4114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Components/Flop.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1532232756004" expanded="false" signature="6:59" ph="..." />
+            <marker date="1532232756004" expanded="true" signature="92:481" ph="{...}" />
+            <marker date="1532232756004" expanded="true" signature="200:479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/SitView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="114" selection-end-column="79" />
+          <folding>
+            <marker date="1532246357789" expanded="false" signature="6:69" ph="..." />
+            <marker date="1532246357789" expanded="true" signature="97:4384" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="140:4382" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="665:786" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="816:939" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="971:1096" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="1134:1257" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="1288:1413" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="1441:1559" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="1756:1799" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="1823:2446" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="2472:2856" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="2896:3265" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="3310:3595" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="3371:3449" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="3471:3585" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="3637:3806" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="3850:4056" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="4102:4162" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="4206:4268" ph="{...}" />
+            <marker date="1532246357789" expanded="true" signature="4313:4376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/FlopView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1532246844170" expanded="true" signature="6:116" ph="..." />
+            <marker date="1532246844170" expanded="true" signature="144:2420" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="188:2418" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="624:739" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="771:896" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="932:1053" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="1078:1399" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="1447:1504" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="1545:1704" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="1730:1804" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="1848:2081" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="2141:2412" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="2184:2266" ph="{...}" />
+            <marker date="1532246844170" expanded="true" signature="2283:2402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateStateBarrier.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1532247614357" expanded="true" signature="43:102" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.8/Unity.Entities/ComponentSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="266" column="76" lean-forward="false" selection-start-line="266" selection-start-column="76" selection-end-line="266" selection-end-column="76" />
+          <folding>
+            <marker date="1530474820000" expanded="false" signature="6:190" ph="..." />
+            <marker date="1530474820000" expanded="true" signature="216:20705" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="296:9741" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="1689:2293" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="1964:2088" ph="/* If all the groups are empty, skip it. ... */" />
+            <marker date="1530474820000" expanded="true" signature="2132:2256" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="2383:3333" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="3390:3840" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="3603:3830" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="3912:4547" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="3975:4159" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="4613:4863" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="4660:4766" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="4920:4941" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="4989:5010" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="5068:5287" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="5344:5443" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="5681:5800" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="5868:6523" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="6016:6513" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="6624:7587" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="6698:6858" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="7678:7870" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="7749:7860" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="7962:8154" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="8033:8144" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="8230:8735" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="8315:8508" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="8791:9455" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="9023:9266" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="9297:9392" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="9507:9735" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="9806:11586" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="9976:10199" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="10229:10431" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="10487:11114" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="10543:10956" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="10599:10721" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="10777:10845" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="10869:10942" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="10998:11104" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="11211:11296" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="11369:11440" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="11450:11540" ph="/// Called once per frame on the main thread. ... " />
+            <marker date="1530474820000" expanded="true" signature="11654:19130" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="11787:12169" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="11895:12072" ph="/* We need to wait on all previous frame dependencies, otherwise it is possible that we create infinitely long de ... */" />
+            <marker date="1530474820000" expanded="true" signature="12246:14434" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="12412:12610" ph="/* Notify all injected barrier systems that they will need to sync on any jobs we spawned. ... */" />
+            <marker date="1530474820000" expanded="true" signature="12669:12766" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="12891:13586" ph="/* Check that all reading and writing jobs are a dependency of the output job, to ... */" />
+            <marker date="1530474820000" expanded="true" signature="14490:15296" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="14546:15138" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="14602:14724" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="14849:14937" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="14976:15075" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="15180:15286" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="15393:15584" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="15657:15778" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="15909:16135" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="16244:16467" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="16534:16584" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="18570:18798" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="18863:19124" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="19196:20703" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="19370:19524" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="19586:19691" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="19754:19909" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="19961:20093" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="20144:20235" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="20285:20697" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="20481:20687" ph="{...}" />
+            <marker date="1530474820000" expanded="true" signature="20525:20626" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/PlayerStateUISystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1532232756037" expanded="true" signature="6:94" ph="..." />
+            <marker date="1532232756037" expanded="true" signature="116:2166" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="173:2164" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="208:369" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="453:2158" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="498:2148" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="581:2134" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="1089:1216" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="1283:1412" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="1480:1639" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="1707:1938" ph="{...}" />
+            <marker date="1532232756037" expanded="true" signature="1963:2116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/UpdateFlopSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="87" lean-forward="false" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+          <folding>
+            <marker date="1532248219012" expanded="true" signature="6:94" ph="..." />
+            <marker date="1532248219012" expanded="true" signature="116:1146" ph="{...}" />
+            <marker date="1532248219012" expanded="true" signature="170:1144" ph="{...}" />
+            <marker date="1532248219012" expanded="true" signature="205:368" ph="{...}" />
+            <marker date="1532248219012" expanded="true" signature="452:1138" ph="{...}" />
+            <marker date="1532248219012" expanded="true" signature="497:1128" ph="{...}" />
+            <marker date="1532248219012" expanded="true" signature="806:926" ph="{...}" />
+            <marker date="1532248219012" expanded="true" signature="990:1114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/CalculateBankAfterBidSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Views/CardView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="73" column="49" lean-forward="false" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+          <folding>
+            <marker date="1532249136301" expanded="false" signature="6:83" ph="..." />
+            <marker date="1532249136301" expanded="true" signature="111:2465" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="155:2463" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="429:681" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="455:671" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="510:620" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="707:822" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="844:887" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="919:1066" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="1091:1196" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="1222:1296" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="1340:2457" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="1397:2005" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="1439:1565" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="1613:1748" ph="{...}" />
+            <marker date="1532249136301" expanded="true" signature="2022:2447" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Components/Bid.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <marker date="1532232755988" expanded="true" signature="31:140" ph="{...}" />
+            <marker date="1532232755988" expanded="true" signature="100:138" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/Systems/CalculateChipsSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <marker date="1532232756035" expanded="false" signature="6:94" ph="..." />
+            <marker date="1532232756035" expanded="true" signature="116:2282" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="174:2280" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="240:417" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="456:617" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="710:2274" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="755:2264" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="837:2250" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="1030:1303" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="1139:1281" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="1328:2232" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="1453:1780" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="1893:2037" ph="{...}" />
+            <marker date="1532232756035" expanded="true" signature="2066:2210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Depoker/UI/UIBootstrap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="221" column="12" lean-forward="false" selection-start-line="221" selection-start-column="12" selection-end-line="221" selection-end-column="12" />
+          <folding>
+            <marker date="1532249440235" expanded="false" signature="6:148" ph="..." />
+            <marker date="1532249440235" expanded="true" signature="170:8836" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="217:8834" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="565:8319" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="688:929" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="763:914" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="1269:1698" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="1413:1482" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="1511:1583" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="1612:1684" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="5381:5560" ph="..." />
+            <marker date="1532249440235" expanded="true" signature="5394:5523" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="7635:7724" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="8399:8511" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="8588:8827" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="8642:8721" ph="{...}" />
+            <marker date="1532249440235" expanded="true" signature="8738:8817" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

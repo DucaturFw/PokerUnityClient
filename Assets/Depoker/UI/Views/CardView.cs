@@ -70,7 +70,9 @@ namespace Depoker.UI.Views
                 {
                     throw new NullReferenceException("UIConfiguration not found at" + gameObject);
                 }
-                
+
+                Cover.gameObject.SetActive(true);
+                CardSprite.gameObject.SetActive(false);
                 Cover.sprite = UIConfiguration.Instance.SpaceSprite;
                 Cover.color = UIConfiguration.Instance.SpaceColor;
             }

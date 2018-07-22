@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\alerz\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_cypher-poker-unity-2.-89324204.00" t="ExcludeRecursive" />
+    <e p="G:\Games\CypherPoker\cypher-poker-unity-2" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Depoker" t="Include">
+          <e p="Blockchain.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Components" t="Include">
+              <e p="Bank.cs" t="Include" />
+              <e p="BankComponent.cs" t="Include" />
+              <e p="Bid.cs" t="Include" />
+              <e p="BidComponent.cs" t="Include" />
+              <e p="Card.cs" t="Include" />
+              <e p="Cards.cs" t="Include" />
+              <e p="CardsComponent.cs" t="Include" />
+              <e p="Chips.cs" t="Include" />
+              <e p="ChipsComponent.cs" t="Include" />
+              <e p="Flop.cs" t="Include" />
+              <e p="FlopComponent.cs" t="Include" />
+              <e p="IUIComponentData.cs" t="Include" />
+              <e p="My.cs" t="Include" />
+              <e p="MyComponent.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="PlayerComponent.cs" t="Include" />
+              <e p="Sit.cs" t="Include" />
+              <e p="SitComponent.cs" t="Include" />
+              <e p="State.cs" t="Include" />
+              <e p="StateComponent.cs" t="Include" />
+            </e>
+            <e p="Systems" t="Include">
+              <e p="CalculateChipsSystem.cs" t="Include" />
+              <e p="PlayerStateUISystem.cs" t="Include" />
+              <e p="UpdateFlopSystem.cs" t="Include" />
+              <e p="UpdateStateBarrier.cs" t="Include" />
+            </e>
+            <e p="UIBootstrap.cs" t="Include" />
+            <e p="UIConfiguration.cs" t="Include" />
+            <e p="Views" t="Include">
+              <e p="CardView.cs" t="Include" />
+              <e p="ChipsView.cs" t="Include" />
+              <e p="ChipView.cs" t="Include" />
+              <e p="DirtableValue.cs" t="Include" />
+              <e p="FlopView.cs" t="Include" />
+              <e p="SitView.cs" t="Include" />
+              <e p="ViewUtils.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="cypher-poker-unity-2.sln" t="IncludeFlat" />
+      <e p="Depoker.UI.csproj" t="IncludeRecursive" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

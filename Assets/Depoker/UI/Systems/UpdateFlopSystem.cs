@@ -22,9 +22,20 @@ namespace Depoker.UI
             {
                 var index = 0;
                 var flop = filter.Flops[index];
+                var entity = filter.Entities[index];
                 var flopView = UIConfiguration.Instance.Flop;
 
                 flopView.Flop = flop;
+
+                if (EntityManager.HasComponent<Bid>(entity))
+                {
+                    flopView.BidData = EntityManager.GetComponentData<Bid>(entity);
+                }
+
+                if (EntityManager.HasComponent<Chips>(entity))
+                {
+                    flopView.ChipsData = EntityManager.GetComponentData<Chips>(entity);
+                }
             }
         }
     }
