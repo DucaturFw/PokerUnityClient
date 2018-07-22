@@ -46,14 +46,14 @@ namespace Depoker.UI.Views
 
         private void FitChildrenCount(int chipsSum)
         {
-            var deleteCount = transform.childCount - chipsSum;
+            var deleteCount = transform.childCount;// - chipsSum;
             var deleteIndex = 0;
             while (deleteIndex < deleteCount)
             {
                 Destroy(transform.GetChild(deleteIndex++).gameObject);
             }
-            
-            var createCount = chipsSum - transform.childCount;
+
+            var createCount = chipsSum;// - transform.childCount;
 
             while (createCount > 0)
             {

@@ -14,6 +14,9 @@ namespace Depoker.UI
         public FlopView Flop;
         public Sprite[] Cards;
 
+        public Transform DeckPivot;
+        public Transform FlopPivot;
+
         void Awake()
         {
             Instance = this;

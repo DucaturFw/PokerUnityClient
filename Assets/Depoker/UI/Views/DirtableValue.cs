@@ -6,12 +6,15 @@ namespace Depoker.UI.Views
     {
         private bool inited;
         private T value;
+        private T previous;
 
         public T Value
         {
             get { return value; }
             set { SetValue(value); }
         }
+
+        public T Previous => previous;
 
         public Action<T> ValueUpdated;
 
@@ -20,6 +23,7 @@ namespace Depoker.UI.Views
             if (!inited || !value.Equals(possibleNewValue))
             {
                 inited = true;
+                previous = value;
                 value = possibleNewValue;
                 ValueUpdated?.Invoke(value);
             }

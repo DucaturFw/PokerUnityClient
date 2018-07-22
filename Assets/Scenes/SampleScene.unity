@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -432,6 +432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 620252316}
   Cover: {fileID: 537385164}
+  Space: {fileID: 0}
 --- !u!1 &93374390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1147,6 +1148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1674916097}
   Cover: {fileID: 1195796224}
+  Space: {fileID: 0}
 --- !u!224 &166452317
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2031,6 +2033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1252211669}
   Cover: {fileID: 1730267187}
+  Space: {fileID: 0}
 --- !u!1001 &317804120
 Prefab:
   m_ObjectHideFlags: 0
@@ -2711,6 +2714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1174549312}
   Cover: {fileID: 1274402315}
+  Space: {fileID: 0}
 --- !u!224 &404777925
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2808,6 +2812,53 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 412629843}
   m_CullTransparentMesh: 0
+--- !u!1 &414816757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 414816758}
+  - component: {fileID: 414816759}
+  m_Layer: 5
+  m_Name: Deck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &414816758
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 414816757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1432686605}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -873, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &414816759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 414816757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c4f034962ef42a785c0df12c9baa2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 114653659825176416, guid: 0adbab5c03c8d1a4481f12d59c4c2eb6,
+    type: 2}
 --- !u!1 &416271146
 GameObject:
   m_ObjectHideFlags: 0
@@ -2839,6 +2890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1017444126}
   Cover: {fileID: 1125501065}
+  Space: {fileID: 0}
 --- !u!224 &416271148
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3097,6 +3149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 625436889}
   Cover: {fileID: 1191597074}
+  Space: {fileID: 0}
 --- !u!224 &427192917
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3688,6 +3741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1713545423}
   Cover: {fileID: 121378710}
+  Space: {fileID: 0}
 --- !u!1 &497681929
 GameObject:
   m_ObjectHideFlags: 0
@@ -5421,6 +5475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1739674747}
   Cover: {fileID: 792851775}
+  Space: {fileID: 0}
 --- !u!224 &708799956
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8977,6 +9032,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1339687006}
   Cover: {fileID: 412629845}
+  Space: {fileID: 0}
 --- !u!1 &1062832138
 GameObject:
   m_ObjectHideFlags: 0
@@ -10303,6 +10359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1512525078}
   Cover: {fileID: 424936884}
+  Space: {fileID: 0}
 --- !u!1 &1248198884
 GameObject:
   m_ObjectHideFlags: 0
@@ -11104,7 +11161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.21176471, g: 0.5019608, b: 0.32156864, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -11555,6 +11612,7 @@ RectTransform:
   - {fileID: 1949135214}
   - {fileID: 938072682}
   - {fileID: 630555099}
+  - {fileID: 414816758}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11642,6 +11700,8 @@ MonoBehaviour:
   - {fileID: 21300098, guid: c99f2a4599b2f5d4db2bb486d6ad084c, type: 3}
   - {fileID: 21300100, guid: c99f2a4599b2f5d4db2bb486d6ad084c, type: 3}
   - {fileID: 21300102, guid: c99f2a4599b2f5d4db2bb486d6ad084c, type: 3}
+  DeckPivot: {fileID: 414816758}
+  FlopPivot: {fileID: 699939613}
 --- !u!1 &1435754150
 GameObject:
   m_ObjectHideFlags: 0
@@ -12636,6 +12696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 983619794}
   Cover: {fileID: 1782101448}
+  Space: {fileID: 0}
 --- !u!1 &1512525076
 GameObject:
   m_ObjectHideFlags: 0
@@ -13600,6 +13661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1409375268}
   Cover: {fileID: 934938000}
+  Space: {fileID: 0}
 --- !u!1 &1673220461
 GameObject:
   m_ObjectHideFlags: 0
@@ -14774,6 +14836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1836215029}
   Cover: {fileID: 1349601646}
+  Space: {fileID: 0}
 --- !u!1 &1804598737
 GameObject:
   m_ObjectHideFlags: 0
@@ -14976,6 +15039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 2045617253}
   Cover: {fileID: 940962627}
+  Space: {fileID: 0}
 --- !u!224 &1830115022
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16088,6 +16152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1895768217}
   Cover: {fileID: 891504348}
+  Space: {fileID: 0}
 --- !u!224 &1998586039
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17122,6 +17187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CardSprite: {fileID: 1442438420}
   Cover: {fileID: 651014413}
+  Space: {fileID: 0}
 --- !u!224 &2113653958
 RectTransform:
   m_ObjectHideFlags: 0

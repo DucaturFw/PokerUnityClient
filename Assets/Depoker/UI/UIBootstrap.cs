@@ -59,26 +59,26 @@ namespace Depoker.UI
                 }
             }
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(2f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(local, new Player {Id = 50});
             AddOrSet(local, new Bank { Value = 10000 });
             
             
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(2f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(oponent1, new Player {Id = 60});
             AddOrSet(oponent1, new Bank { Value = 10000 });
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(oponent2, new Player {Id = 70});
             AddOrSet(oponent2, new Bank { Value = 10000 });
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             
@@ -89,7 +89,7 @@ namespace Depoker.UI
             AddOrSet(oponent2, new Bank() { Value = 10000 - 10 });
             
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
 
@@ -100,54 +100,54 @@ namespace Depoker.UI
             localCards.Right = RandomCard();
             
             AddOrSet(local, localCards);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             opponent1Cards.Right = RandomCard(Card.States.Close);
             AddOrSet(oponent1, opponent1Cards);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             opponent2Cards.Right = RandomCard(Card.States.Close);
             AddOrSet(oponent2, opponent2Cards);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             
             localCards.Left = RandomCard();
             AddOrSet(local, localCards);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             opponent1Cards.Left = RandomCard(Card.States.Close);
             AddOrSet(oponent1, opponent1Cards);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             opponent2Cards.Left = RandomCard(Card.States.Close);
             AddOrSet(oponent2, opponent2Cards);
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             
             AddOrSet(local, new Bid() { Value = 100 });
             AddOrSet(local, new Bank() { Value = 10000 - 100 });
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(oponent1, new Bid() { Value = 250 });
             AddOrSet(local, new Bank() { Value = 10000 - 250 });
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             Manager.RemoveComponent<Cards>(oponent2);
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(local, new Bid() { Value = 250 });
             AddOrSet(local, new Bank() { Value = 10000 - 250 });
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             
@@ -162,28 +162,28 @@ namespace Depoker.UI
             AddOrSet(local, default(Bid));
             AddOrSet(oponent1, default(Bid));
             AddOrSet(oponent2, default(Bid));
-            
             AddOrSet(flop, new Bid() { Value = 510 });
             
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
 
             flop1.Fourth = RandomCard();
             AddOrSet(flop, flop1);
             
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(oponent1, new Bid() { Value = 1500 });
             AddOrSet(oponent1, new Bank() { Value = 10000 - 250 - 1500 });
-            yield return new WaitForSeconds(0.5f);
+            
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(local, new Bid() { Value = 1500 });
             AddOrSet(local, new Bank() { Value = 10000 - 250 - 1500 });
            
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(2.1f);
             yield return new WaitForEndOfFrame();
             
             
@@ -194,17 +194,19 @@ namespace Depoker.UI
             AddOrSet(flop, flop1);
             
             
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(oponent1, new Bid() { Value = 5000 });
             AddOrSet(oponent1, new Bank() { Value = 10000 - 250 - 1500 - 5000 });
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(2.5f);
             yield return new WaitForEndOfFrame();
             
             AddOrSet(local, new Bid() { Value = 5000 });
             AddOrSet(local, new Bank() { Value = 10000 - 250 - 1500 - 5000 });
             
+            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForEndOfFrame();
             
             AddOrSet(local, default(Bid));
             AddOrSet(oponent1, default(Bid));
@@ -217,7 +219,7 @@ namespace Depoker.UI
                 Right = RandomCard()
             });
             
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(2f);
             yield return new WaitForEndOfFrame();
             
             
