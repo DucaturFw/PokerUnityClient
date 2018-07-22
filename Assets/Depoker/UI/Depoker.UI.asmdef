@@ -1,0 +1,14 @@
+{
+    "name": "Depoker.UI",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Hybrid",
+        "Unity.Transforms",
+        "Unity.Transforms.Hybrid",
+        "Unity.Transforms2D"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
