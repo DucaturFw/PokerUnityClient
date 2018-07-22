@@ -26,7 +26,10 @@ namespace Depoker.UI
                     var entity = filter.Entities[index];
                     var id = filter.Sits[index].Id;
                     var my = EntityManager.HasComponent<My>(entity);
-                    var sit = my ? UIConfiguration.Instance.My : UIConfiguration.Instance.Sits[id];
+//                    var sit = my ? UIConfiguration.Instance.My : UIConfiguration.Instance.Sits[id];
+                    var sit = UIConfiguration.Instance.Sits[id];
+
+                    sit.Vacant = !EntityManager.HasComponent<Player>(entity);
 
                     if (EntityManager.HasComponent<Bid>(entity))
                     {
@@ -49,6 +52,11 @@ namespace Depoker.UI
                         var cards = EntityManager.GetComponentData<Cards>(entity);
                         sit.LeftCard = cards.Left;
                         sit.RightCard = cards.Right;
+                    }
+                    else
+                    {
+                        sit.LeftCard = default(Card);
+                        sit.RightCard = default(Card);
                     }
                 }
             }

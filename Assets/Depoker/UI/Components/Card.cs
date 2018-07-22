@@ -6,8 +6,15 @@ namespace Depoker.UI.Components
     [StructLayout(LayoutKind.Explicit)]
     public struct Card
     {
+        public enum States
+        {
+            None,
+            Close,
+            Open
+        }
+        
         [FieldOffset(0)]
-        public int Open;
+        public States State;
         [FieldOffset(4)]
         public int Suit;
         [FieldOffset(8)]
@@ -15,7 +22,7 @@ namespace Depoker.UI.Components
 
         public override string ToString()
         {
-            return $"Card: {Suit}-{Value} [{(Open > 0 ? "Open" : "Close")}]";
+            return $"Card: {Suit}-{Value} [{(State > 0 ? "Open" : "Close")}]";
         }
     }
 }

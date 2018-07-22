@@ -4,6 +4,7 @@ namespace Depoker.UI.Views
 {
     public class DirtableValue<T>
     {
+        private bool inited;
         private T value;
 
         public T Value
@@ -16,8 +17,9 @@ namespace Depoker.UI.Views
 
         private void SetValue(T possibleNewValue)
         {
-            if (!value.Equals(possibleNewValue))
+            if (!inited || !value.Equals(possibleNewValue))
             {
+                inited = true;
                 value = possibleNewValue;
                 ValueUpdated?.Invoke(value);
             }

@@ -37,7 +37,7 @@ namespace Depoker.UI.Views
 
         private void Prepare(CardView cardView, Card card)
         {
-            if (card.Open == 0)
+            if (card.State == 0)
             {
                 cardView.gameObject.SetActive(false);
             }

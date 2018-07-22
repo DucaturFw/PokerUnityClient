@@ -41,7 +41,10 @@ namespace Depoker.UI
                     var chips = new Chips(); 
                     if (value == 0)
                     {
-                        EntityManager.RemoveComponent<Chips>(filter.Entities[index]);
+                        if (EntityManager.HasComponent<Chips>(filter.Entities[index]))
+                        {
+                            EntityManager.RemoveComponent<Chips>(filter.Entities[index]);
+                        }
                     }
                     else
                     {

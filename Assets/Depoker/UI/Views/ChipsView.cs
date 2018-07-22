@@ -17,11 +17,6 @@ namespace Depoker.UI.Views
 
         public ChipView ChipPrefab;
 
-        void Awake()
-        {
-            FitChildrenCount(0);
-        }
-
         void OnEnable()
         {
             data.ValueUpdated += ChipsUpdated;

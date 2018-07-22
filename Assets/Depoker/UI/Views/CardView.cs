@@ -11,13 +11,20 @@ namespace Depoker.UI.Views
         public Image CardSprite;
         public Image Cover;
         
-        private DirtableValue<bool> dirtableCovered = new DirtableValue<bool>();
         private DirtableValue<Card> dirtableCard = new DirtableValue<Card>();
+        private CanvasGroup cachedGroup;
 
-        public bool Covered
+        private CanvasGroup Group
         {
-            get { return dirtableCovered.Value; }
-            set { dirtableCovered.Value = value; }
+            get
+            {
+                if (cachedGroup == null)
+                {
+                    cachedGroup = gameObject.AddComponent<CanvasGroup>();
+                }
+
+                return cachedGroup;
+            }
         }
 
         public Card Card
@@ -29,6 +36,7 @@ namespace Depoker.UI.Views
         void OnEnable()
         {
             dirtableCard.ValueUpdated += CardUpdated;
+            CardUpdated(Card);
         }
 
         void OnDisable()
@@ -38,7 +46,19 @@ namespace Depoker.UI.Views
 
         private void CardUpdated(Card obj)
         {
-            CardSprite.sprite = UIConfiguration.Instance.Cards[obj.Suit * 13 + obj.Value];
+            if (obj.State == Card.States.None)
+            {
+                Group.alpha = 0;
+            }
+            else
+            {
+                Group.alpha = 1;
+                
+                Cover.gameObject.SetActive(obj.State == Card.States.Close);
+                CardSprite.gameObject.SetActive(obj.State == Card.States.Open);
+                
+                CardSprite.sprite = UIConfiguration.Instance.Cards[obj.Suit * 13 + obj.Value];
+            }
         }
     }
 }
